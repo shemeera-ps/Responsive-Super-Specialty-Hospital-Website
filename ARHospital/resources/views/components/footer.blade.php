@@ -1,5 +1,6 @@
-<footer class="w-full bg-gray-950 lg:py-20 py-10 lg:px-10 flex flex-col justify-center ltr:pl-10 rtl:pr-10 rtl:lg:pr-0   lg:flex-row lg:justify-start items-start text-white text-sm">
-    <ul class="flex justify-start items-left text-white tracking-wide text-sm flex-col w-[21rem] lg:mr-20 mb-4 lg:mb-0">
+<footer class="w-full bg-gray-950 lg:py-20 py-4 lg:px-10 flex flex-col justify-center ltr:pl-10 rtl:pr-10 rtl:lg:pr-0     text-white text-sm">
+<div class="flex lg:justify-between items-center lg:flex-row flex-col justify-center">  
+<ul class="flex justify-start items-left text-white tracking-wide text-sm flex-col w-[21rem] lg:mr-20 mb-4 lg:mb-0">
         <li class="mb-4"><a href=""><img src="{{ asset('images/speciality.png')}}" alt="" class="h-16 bg-white  p-3 rounded-3xl"></a></li>
         <li class="mb-2"><a href="" class=""><i class="fa-solid fa-phone mr-1"></i><span>0484 4527 234 (24/7 General Enquiry)</span></a></li>
         <li><a href=""><i class="fa-solid fa-location-dot mr-2"></i>AR Super Specialty Hospital, Craft Camps,Chandrapura ,Kondungallur -680664</a></li>
@@ -51,4 +52,9 @@
         <li class="mb-2"><a href="" class="underline">Blogs</a></li>
         <li class="mb-2"><a href="" class="underline">Media</a></li>
     </ul>
+</div>
+<div class="flex lg:justify-between justify-center items-center mb-2 mt-10 text-sm">
+    <span class="">© 2023 Armed Centre. All rights reserved.</span>
+    <span><span class=""> Privacy Policy</span><span>Terms of Service</span></span>
+</div>
 </footer>

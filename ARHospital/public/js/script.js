@@ -7,38 +7,19 @@ menu.addEventListener("click", (e) => {
     e.preventDefault();
 
     menu.classList.add("hidden");
-    navContainer.classList.remove("hidden");
+  
+    navContainer.style.top = 0;
 
-    if (window.innerWidth < 1024) {
-        navLinks.classList.remove("animate__zoomOut");
-        navLinks.classList.add("animate__animated", "animate__zoomIn");
-    }
 });
 
 close.addEventListener("click", (e) => {
     e.preventDefault();
-
-    // Toggle the 'hidden' class for both menu and navLinks
+    navContainer.style.top = '-700px';
     menu.classList.remove("hidden");
-    navContainer.classList.add("hidden");
 
-    // Check if the screen is not large (lg)
-    if (window.innerWidth < 1024) {
-        navLinks.classList.remove("animate__zoomIn");
-        navLinks.classList.add("animate__zoomOut");
-    }
 });
 
-// Add an event listener to handle animation end and toggle 'hidden' class
-navLinks.addEventListener("animationend", () => {
-    if (navLinks.classList.contains("animate__zoomOut")) {
-        navContainer.classList.add("hidden");
-        // Remove the 'animate__zoomOut' class after the animation ends
-        navLinks.classList.remove("animate__zoomOut");
-    }
-});
 
-//
 
 const department = document.querySelectorAll(".department");
 

@@ -8,7 +8,12 @@ export default {
 
     theme: {
         extend: {
-           
+           colors:{
+            'customBlack':'#151216',
+            'customOrange':'#8F7143',
+            'secondaryBg':'#F7EEE9',
+            'secondaryText':'#A2735F',
+           }
             
         },
     },
