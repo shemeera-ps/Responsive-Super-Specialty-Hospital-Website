@@ -1,0 +1,3 @@
+[submodule "AR"]
+	path = AR
+	url = https://github.com/midhunps0/app-base.git
